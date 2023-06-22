@@ -1,10 +1,43 @@
-h1
+#main
 {
-	color: black;
-	font-family: impact;
-	font-size: 200%;
+	max-width: 1920px;
+	margin: 0 auto;
 }
-body
+
+.name
 {
-	background-color: white;
+	margin-left: 150px;
+	text-align: center;
+	color: black;
+	font-size: 7vw;
+	font-family: times;
+}
+
+.caption
+{
+	padding-left: 10px;
+	letter-spacing: 2px;
+	font-style: italic;
+	font-size: 250%;
+	font-family: "forma-djr-display", sans-serif;
+}
+
+.pinkbox
+{
+	position:absolute;
+	top: 5cm;
+	bottom: 9cm;
+	left: 150px;
+	right: 20cm;
+	background-color: rgb(250, 233, 236);
+}
+
+.blurbtext
+{
+	font-size: 1.9vw;
+	font-family: "forma-djr-display", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	padding-top: 1.5cm;
+	padding-left: 70px;
 }
