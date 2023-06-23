@@ -4,45 +4,9 @@
 	margin: 0 auto;
 }
 
-h1
-{
-	font-size: 18vw;
-	color: black;
-	text-align: center
-}
-
-.name
-{
-	margin-left: 18vw;
-	text-align: center;
-	color: black;
-	font-size: 7vw;
-	font-family: times;
-}
-
-.caption
-{
-	padding-left: 10px;
-	letter-spacing: 2px;
-	font-style: italic;
-	font-size: 2.5vw;
-	font-family: "forma-djr-display", sans-serif;
-}
-
-.pinkbox
-{
-	background-color: rgb(250, 233, 236);
-	margin-left: 18vw;
-	margin-right: 18vw;
-
-	font-size: 1.9vw;
-	font-family: "forma-djr-display", sans-serif;
-	font-weight: 400;
-	font-style: italic;
-	padding-top: 4vw;
-	padding-left: 4vw;
-}
-
+/*
+BUTTONS
+*/
 .button
 {
 	background-color: #242325;
@@ -58,9 +22,108 @@ h1
 
 	transition-duration: 0.3s;
 }
+	.button:hover
+	{
+		background-color: white;
+		color:black;
+	}
 
-.button:hover
+.lightswitch
 {
+	margin: 0vw;
+	border:none;
+	background-color: transparent;
+}
+
+/*
+DEFAULTS
+*/
+
+h1
+{
+	font-size: 18vw;
+	color: black;
+	text-align: center
+}
+
+body
+{
+	.name
+	{
+		margin-left: 18vw;
+		text-align: center;
+		color: black;
+		font-size: 7vw;
+		font-family: times;
+	}
+	.caption
+	{
+		letter-spacing: 2px;
+		font-style: italic;
+		font-size: 2.5vw;
+		font-family: "forma-djr-display", sans-serif;
+		padding-right: 2vw;
+	}
+	.pinkbox
+	{
+		border-style:hidden;
+		border-radius: 14px;
+		margin-left: 18vw;
+		margin-right: 18vw;
+		position: relative;
+		background-color: rgb(250, 233, 236);
+
+		font-size: 1.9vw;
+		font-family: "forma-djr-display", sans-serif;
+		font-style: italic;
+		padding-top: 4vw;
+		padding-left: 4vw;
+	}
 	background-color: white;
-	color:black;
+}
+
+.dark-mode
+{
+	/* background-image: url("starry.gif"); */
+	background-color:#131314;
+	transition: 0.7s;
+	transition-property: unset;
+	.name
+	{
+		color: rgb(250, 233, 236);
+	}
+	.caption
+	{
+		color: rgb(250, 233, 236);
+	}
+	.pinkbox
+	{
+		background-image: url("comet.gif");
+		background-color:#131314;
+		transition: 1.2s;
+		border-style:outset;
+		border-color: rgb(250, 233, 236);
+		color: rgb(250, 233, 236);
+	}
+
+	.button
+	{
+		background-color: transparent;
+		border-radius: 14px;
+		border-color:rgb(250, 233, 236);
+
+		color:rgb(250, 233, 236);
+		transition-duration: 0.3s;
+	}
+		.button:hover
+		{
+			background-color: rgb(250, 233, 236);
+			color:black;
+		}
+}
+
+.starry-mode
+{
+	background-color: none;
+	background-image: url("starry.gif");
 }
