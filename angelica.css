@@ -76,8 +76,14 @@ body
 	#lights
 	{
 		content: url("img/lighton.png");
+		max-width: 5vw;
+		max-height: auto;
 	}
 }
+
+/*
+* DARK MODE
+*/
 
 .dark-mode
 {
