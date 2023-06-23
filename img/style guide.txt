@@ -1,0 +1,13 @@
+style guide 
+
+color palette: (using coolors)
+
+    default color scheme: "angelic"
+        background: #FDFAF7 BABY POWDER
+        text containers: #FDDDDD MISTY ROSE
+        text color: #2A2829 RAISIN BLACK
+
+    dark mode: "dark"
+        background: #161515 NIGHT
+        text containers: #2A2829 RAISIN BLACK
+        text color: #CCBDBD SILVER

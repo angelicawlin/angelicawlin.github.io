@@ -9,43 +9,37 @@ BUTTONS
 */
 .button
 {
-	background-color: #242325;
+	background-color: #2A2829;
 	border-radius: 14px;
 	padding: 0.5vw 1vw;
 	margin: 0.3vw;
-	margin-bottom: 3vw;
 
 	font-size: 1.5vw;
 	font-family: "forma-djr-display", sans-serif;
-	color:white;
+	color:#FDFAF7;
 	align-self: center;
 
 	transition-duration: 0.3s;
 }
 	.button:hover
 	{
-		background-color: white;
-		color:black;
+		background-color: #FDFAF7;
+		color:#2A2829;
 	}
 
 /*
 DEFAULTS
 */
 
-h1
-{
-	font-size: 18vw;
-	color: black;
-	text-align: center
-}
-
 body
-{
+{ 
+	background-color: #FDFAF7;
+
 	.name
 	{
 		margin-left: 18vw;
 		text-align: center;
-		color: black;
+		color:#2A2829;
 		font-size: 7vw;
 		font-family: times;
 	}
@@ -62,16 +56,17 @@ body
 		border-radius: 14px;
 		margin-left: 18vw;
 		margin-right: 18vw;
+		margin-bottom: 3vw;
 		position: relative;
-		background-color: rgb(250, 233, 236);
+		background-color: #FDDDDD;
 
 		font-size: 1.9vw;
 		font-family: "forma-djr-display", sans-serif;
 		font-style: italic;
 		padding-top: 4vw;
 		padding-left: 4vw;
+		padding-bottom: 3vw;
 	}
-	background-color: white;
 
 	#lights
 	{
@@ -81,6 +76,16 @@ body
 	}
 }
 
+footer
+{
+	margin-left: 18vw;
+	margin-right: 18vw;
+
+	text-align: left;
+	font-family: "forma-djr-display", sans-serif;
+	font-size: 200%;
+}
+
 /*
 * DARK MODE
 */
@@ -88,40 +93,38 @@ body
 .dark-mode
 {
 	/* background-image: url("starry.gif"); */
-	background-color:#131314;
+	background-color:#161515;
 	transition-duration: 0.7s;
 	transition-property: unset;
 	.name
 	{
-		color: rgb(250, 233, 236);
+		color: #CCBDBD;
 	}
 	.caption
 	{
-		color: rgb(250, 233, 236);
+		color: #CCBDBD;
 	}
 	.pinkbox
 	{
 		/* background-image: url("comet.gif"); */
-		background-color:#131314;
+		background-color:#2A2829;
 		transition-duration: 1.2s;
-		border-style:outset;
-		border-color: rgb(250, 233, 236);
-		color: rgb(250, 233, 236);
+		color: #CCBDBD;
 	}
 
 	.button
 	{
-		background-color: transparent;
+		background-color: #161515;
 		border-radius: 14px;
-		border-color:rgb(250, 233, 236);
+		border:none;
 
-		color:rgb(250, 233, 236);
+		color:#CCBDBD;
 		transition-duration: 0.3s;
 	}
 		.button:hover
 		{
-			background-color: rgb(250, 233, 236);
-			color:black;
+			background-color: #CCBDBD;
+			color:#2A2829;
 		}
 
 	#lights
