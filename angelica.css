@@ -4,9 +4,16 @@
 	margin: 0 auto;
 }
 
+h1
+{
+	font-size: 18vw;
+	color: black;
+	text-align: center
+}
+
 .name
 {
-	margin-left: 150px;
+	margin-left: 18vw;
 	text-align: center;
 	color: black;
 	font-size: 7vw;
@@ -18,26 +25,42 @@
 	padding-left: 10px;
 	letter-spacing: 2px;
 	font-style: italic;
-	font-size: 250%;
+	font-size: 2.5vw;
 	font-family: "forma-djr-display", sans-serif;
 }
 
 .pinkbox
 {
-	position:absolute;
-	top: 5cm;
-	bottom: 9cm;
-	left: 150px;
-	right: 20cm;
 	background-color: rgb(250, 233, 236);
-}
+	margin-left: 18vw;
+	margin-right: 18vw;
 
-.blurbtext
-{
 	font-size: 1.9vw;
 	font-family: "forma-djr-display", sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	padding-top: 1.5cm;
-	padding-left: 70px;
+	padding-top: 4vw;
+	padding-left: 4vw;
+}
+
+.button
+{
+	background-color: #242325;
+	border-radius: 14px;
+	padding: 0.5vw 1vw;
+	margin: 0.3vw;
+	margin-bottom: 3vw;
+
+	font-size: 1.5vw;
+	font-family: "forma-djr-display", sans-serif;
+	color:white;
+	align-self: center;
+
+	transition-duration: 0.3s;
+}
+
+.button:hover
+{
+	background-color: white;
+	color:black;
 }
