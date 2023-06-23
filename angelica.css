@@ -28,13 +28,6 @@ BUTTONS
 		color:black;
 	}
 
-.lightswitch
-{
-	margin: 0vw;
-	border:none;
-	background-color: transparent;
-}
-
 /*
 DEFAULTS
 */
@@ -66,7 +59,6 @@ body
 	}
 	.pinkbox
 	{
-		border-style:hidden;
 		border-radius: 14px;
 		margin-left: 18vw;
 		margin-right: 18vw;
@@ -80,13 +72,18 @@ body
 		padding-left: 4vw;
 	}
 	background-color: white;
+
+	#lights
+	{
+		content: url("img/lighton.png");
+	}
 }
 
 .dark-mode
 {
 	/* background-image: url("starry.gif"); */
 	background-color:#131314;
-	transition: 0.7s;
+	transition-duration: 0.7s;
 	transition-property: unset;
 	.name
 	{
@@ -98,9 +95,9 @@ body
 	}
 	.pinkbox
 	{
-		background-image: url("comet.gif");
+		/* background-image: url("comet.gif"); */
 		background-color:#131314;
-		transition: 1.2s;
+		transition-duration: 1.2s;
 		border-style:outset;
 		border-color: rgb(250, 233, 236);
 		color: rgb(250, 233, 236);
@@ -120,10 +117,15 @@ body
 			background-color: rgb(250, 233, 236);
 			color:black;
 		}
+
+	#lights
+	{
+		content: url("img/lightoff.png");
+	}
 }
 
-.starry-mode
+/* .starry-mode
 {
 	background-color: none;
 	background-image: url("starry.gif");
-}
+} */
