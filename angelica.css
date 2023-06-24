@@ -27,6 +27,25 @@ BUTTONS
 		color:#2A2829;
 	}
 
+.lt
+{
+	background-color: transparent;
+	border-color:#2A2829;
+	border-width: 3px;
+	border-radius: 5px;
+	padding: 0.2vw 0.4vw;
+
+	font-family:times;
+	font-style:italic;
+	font-size: 1.5vw;
+}
+	.lt:hover
+	{
+		scale: 110%;
+		transition-duration: 0.7s;
+		text-decoration:underline;
+	}
+
 /*
 DEFAULTS
 */
@@ -34,6 +53,7 @@ DEFAULTS
 body
 { 
 	background-color: #FDFAF7;
+	transition-duration: 0.05s;
 
 	.name
 	{
@@ -54,9 +74,7 @@ body
 	.pinkbox
 	{
 		border-radius: 14px;
-		margin-left: 18vw;
-		margin-right: 18vw;
-		margin-bottom: 3vw;
+		margin: 0vw 18vw;
 		position: relative;
 		background-color: #FDDDDD;
 
@@ -74,17 +92,40 @@ body
 		max-width: 5vw;
 		max-height: auto;
 	}
+
+	/* #paperplane
+	{
+		content:url("img/paperplane.png");
+		max-width: 4vw;
+		max-height:auto;
+		position:relative;
+	} */
+
+	.menustyle
+	{
+		word-spacing: 1vw;
+		text-align: center;
+		margin: 1vw 18vw;
+	}
 }
 
-footer
+/* footer
 {
+	border-radius: 14px;
 	margin-left: 18vw;
 	margin-right: 18vw;
+	background-color:#CCBDBD;
 
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+
+	font-size: 1vw;
+	color:#2A2829;
+	padding: 1vw;
 	text-align: left;
-	font-family: "forma-djr-display", sans-serif;
-	font-size: 200%;
-}
+} */
+
 
 /*
 * DARK MODE
