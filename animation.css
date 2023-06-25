@@ -20,3 +20,14 @@
     opacity: 1;
     transform: none;
 } */
+
+.item-appear
+{
+	opacity: 1;
+	transition-duration: 1s;
+}
+
+.item-wrapper
+{
+    background: transparent;
+}
