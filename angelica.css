@@ -11,14 +11,6 @@
 	max-height: auto;
 }
 
-/* #paperplane
-{
-	content:url("img/paperplane.png");
-	max-width: 4vw;
-	max-height:auto;
-	position:relative;
-} */
-
 /*
 BUTTONS
 */
@@ -85,23 +77,6 @@ body
 	background-color: #FDFAF7;
 	transition-duration: 0.8s;
 }
-
-/* footer
-{
-	border-radius: 14px;
-	margin-left: 18vw;
-	margin-right: 18vw;
-	background-color:#CCBDBD;
-
-	font-family: "articulat-cf", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-
-	font-size: 1vw;
-	color:#2A2829;
-	padding: 1vw;
-	text-align: left;
-} */
 
 /* CONTAINERS */
 
